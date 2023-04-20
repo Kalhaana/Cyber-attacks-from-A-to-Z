@@ -27,8 +27,9 @@ Example:
 Stuxnet — a worm used to attack Iran’s nuclear program, which was delivered via an infected USB device, and inflicted damage to centrifuges used to enrich Uranium. Stuxnet is malware that targets SCADA 
 (industrial Supervisory Control and Data Acquisition) systems—it was able to disrupt the activity of machinery in the Iranian nuclear program without the knowledge of their operators.
 
-How to perform an APT:
+APT explanation in Audiovisual format:
 
+https://www.youtube.com/watch?v=7aemGhaE9ds
 
 APT Detection and Protection Measures:
 
