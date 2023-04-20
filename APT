@@ -1,0 +1,45 @@
+An advanced persistent threat (APT) is a sophisticated, sustained cyberattack in which an intruder establishes an undetected presence in a network in order to steal sensitive data over a prolonged period of time.
+
+Six APT Attack Stages:
+
+1. Initial access- APT groups start their campaign by gaining access to a network via one of three attack surfaces: web-based systems, networks, or human users. They typically achieve access via malicious uploads, searching for and 
+exploiting application vulnerabilities, gaps in security tools, and most commonly, spear phishing targeting employees with privileged accounts. The goal is to infect the target with malicious software.
+
+2. First penetration and malware deployment- After they gain access, attackers compromise the penetrated system by install a backdoor shell, a trojan masked as legitimate software, or other malware that allows them network access and remote control of the 
+penetrated system. An important milestone is to establish an outbound connection to their Command and Control system. APTs may use advanced malware techniques such as encryption, obfuscation or code rewriting to 
+hide their activity.
+
+3. Expand access and move laterally- Attackers use the first penetration to gather more information about the target network. They may use brute force attacks, or exploit other vulnerabilities they discover inside the network, to gain deeper access 
+and control additional, more sensitive systems. Attackers install additional backdoors and create tunnels, allowing them to perform lateral movement across the network and move data at will.
+
+4. Stage the attack- Once they have expanded their presence, attackers identify the data or assets they are after, and transfer it to a secure location inside the network, typically encrypted and compressed to prepare for exfiltration. 
+This stage can take time, as attackers continue to compromise more sensitive systems and transfer their data to secure storage.
+
+5. Exfiltration or damage infliction- Finally, attackers prepare to transfer the data outside the system. They will often conduct a “white noise attack”, such as a Distributed Denial of Service (DDoS) attack, to distract security teams while they 
+transfer the data outside the network perimeter. Afterwards they will take steps to remove forensic evidence of the data transfer.Depending on the goal of the attack, at this point the APT group may create 
+massive damage, debilitating the organization or taking over critical assets such as websites or data centers.
+
+6. Follow up attacks- If the APT attack involved a silent data exfiltration which was not detected, attackers will remain inside the network and wait for additional attack opportunities. Over time they may collect additional sensitive 
+data and repeat the process. They will also aim to create backdoors that are difficult to detect, so even if they are caught, they can regain access to the system in the future.
+
+Example:
+
+Stuxnet — a worm used to attack Iran’s nuclear program, which was delivered via an infected USB device, and inflicted damage to centrifuges used to enrich Uranium. Stuxnet is malware that targets SCADA 
+(industrial Supervisory Control and Data Acquisition) systems—it was able to disrupt the activity of machinery in the Iranian nuclear program without the knowledge of their operators.
+
+How to perform an APT:
+
+
+APT Detection and Protection Measures:
+
+APT is a multi-faceted attack, and defenses must include multiple security tools and techniques which includes but not limited to:
+
+1. Email filtering — most APT attacks leverage phishing to gain initial access. Filtering emails, and blocking malicious links or attachments within emails, can stop these penetration attempts.
+
+2. Endpoint protection — all APT attacks involve takeover of endpoint devices. Advanced anti-malware protection and Endpoint Detection and Response can help identify and react to compromise of an endpoint by APT actors.
+
+3. Access control — strong authentication measures and close management of user accounts, with a special focus on privileged accounts, can reduce the risks of APT.
+
+4. Monitoring of traffic, user and entity behavior — can help identify penetrations, lateral movement and exfiltration at different stages of an APT attack.
+
+
